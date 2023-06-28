@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+  <div class="container">
+    <h1>Temperature Converter</h1>
+    <div>
+      <input type="number" id="temperatureInput" required placeholder="Enter temperature" ><br/><br/>
+      <div class="box">
+      <select id="unitSelect">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+    </div>
+    </div><br/>
+    <button class="button-69" onclick="convertTemperature()">Convert</button>
+    <h3 id="result"></h3>
+  </div>
+    <div class="ocean">
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
